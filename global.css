@@ -1,0 +1,257 @@
+*{
+    padding-top: 0px;
+    margin: 0px;
+}
+
+
+.header--primario {
+    background-color:#011C33;
+    height: 104px;}
+
+.header--primario--nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+} 
+
+.head--nav--item{
+    color: #FFF;
+    font-family: Julee;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;}
+
+.head--nav--retangulo{
+    background-color: #D9D9D9CC;
+    width: 20px;
+    height:20px;
+    transform: rotate(-45deg);
+    
+    }  
+    
+.header--primario a:hover{
+        background: rgb(75, 56, 56);
+}
+
+.container--main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+
+.main--image{
+    width: 100%;
+     }
+
+.main--image--logo{
+    width: 70%;    
+    position: absolute;
+    margin: 35%;
+    }
+
+    
+.container--sobre{                  
+    background-color: #010103;
+    width: 100%;  
+    margin-top: -4px;
+    padding-top: 15px;
+    
+    
+}
+   
+.container--sobre--titulo{
+    color: #CDBAA5;
+    font-family: Julee;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;   
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;      
+     
+    
+}
+.conteiner--sobre--retangulo {
+    background-color: #744008;
+    width: 20px;
+    height:20px;
+    transform: rotate(-45deg);
+    align-items: center;
+}
+    
+
+.container--geral{
+    display: flex;
+
+}
+        
+.container--sobre--image{  
+    width: 50%;
+    height: 50%;
+    
+
+}    
+
+
+.container--sobre--descricao{
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    padding-right: 15px;   
+    min-width: 400px;
+    max-width: 1000px;
+    
+}
+h2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.head--nav--linha{
+    width: 20%;
+    height: 0px;
+    border: 1px solid #744008;
+    margin-top: 10px;
+    
+}
+    /* section geral de personagens */
+.container--personagens{
+    background-color: #010103;
+    width: 100%;
+    height: 800px;
+    }
+/* container personagens */
+.container--personagem-titulo {
+    color: #CDBAA5;
+    font-family: Julee;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;   
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    }  
+.container--geral--personagens{
+    display: flex;
+}    
+
+.container--personagens--images{    
+    width: 10%;
+    position: relative;
+}    
+    .container--personagens--1{
+        position: absolute;
+        left: 215px;
+    }
+    .container--personagens--2{
+        position: absolute;
+        left: 65px;
+        top: 72px;
+    }
+    .container--personagens--3{
+        position: absolute;
+        left: 215px;
+        top: 196px;
+    }
+    .container--personagens--4{
+        position: absolute;
+        left: 65px;
+        top: 288px;
+    }
+    .container--personagens--5{
+        position: absolute;
+        left: 215px;
+        top: 392px;}
+
+
+.container--personagens--main{       
+    padding-left: 400px;
+    width: 1000px;   
+   
+}
+/* container geral linhas  */
+.containerLinhas{   
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    align-items: center;
+    flex-wrap: nowrap;   
+      
+}   
+/* container retangulo */
+    .conteiner--sobre--retangulovertical{
+        background-color: #744008;
+        width: 20px;
+        height:20px;
+        transform: rotate(-45deg);
+        }
+/* container linha */
+    .head--nav--linhavertical{    
+        width: 0px;  
+        height: 50%;      
+        border: 1px solid #744008;
+        
+       }
+
+/* container descrição personagem */
+.container--personagem--descricao{
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-align: justify;   
+    padding: 20px;
+    min-width: 400px;
+    max-width: 1000px;
+    }
+
+.container--casas{
+    display: flex;
+    background-color: #010103;
+    width: 100%;
+    height: 100px;
+}
+
+
+.container-casas-image{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.casas-imagem-title{
+    justify-content: center;
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+button{
+    color: aliceblue;
+    background-color: #052E3A;
+    font-family: Kurale;
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    border: 0px;
+    border-radius: 30px;
+    
+
+}
